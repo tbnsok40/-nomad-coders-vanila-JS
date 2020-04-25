@@ -1,12 +1,13 @@
-body {
-  /* background-color: blanchedalmond; */
+/* body {
+  background-color: rgb(133, 179, 231);
+
   width: 100%;
   height: 100%;
-}
+} */
 
 #d-day {
   font-weight: 660;
-  font-size: 75px;
+  font-size: 55px;
   color: white;
   position: absolute;
   /* width: 100%; */
@@ -19,3 +20,15 @@ body {
   top: 150px;
   text-align: center;
 }
+
+.bgImage {
+  position: absolute;
+  /* 조상 클래스가 없으므로, absolute: body를 기준으로 설정 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+/* 이전의 사진들이 없어지지않고 계속 남아있는 문제를, 전체 크기로 키워버림으로써 차곡차곡 묻어버리니, 새로운 사지만 남는 효과를 보이게한다. 개꿀 */

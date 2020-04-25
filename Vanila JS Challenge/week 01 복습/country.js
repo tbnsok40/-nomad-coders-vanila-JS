@@ -6,6 +6,7 @@ const COUNTRY = "country";
 selectElem.addEventListener("change", function () {
   var index = selectElem.value;
   var country = "country";
+
   saveName(COUNTRY, index);
   //////////
   coname = localStorage.getItem(COUNTRY);
@@ -25,4 +26,5 @@ function paintImage(coname) {
   image.src = `C:/Users/User/Desktop/html실습/Vanila JS Challenge/week 01 복습/${coname}.jpg`;
   image.classList.add("bgImage"); // 목록에 문자열 추가..? 왜 추가해? bgImage 왜 필요?
   body.appendChild(image); //append는 문자열을 삽입할 수 있는데, appendChild는 문자열은 못넣는다고 한다
+  /// option바꿀때마다 사진 바꾸려면,option을 바꿀 때, 새로고침 주는 효과,,?
 } //appendChild: 말그대로 child를 append한다, 어디에? body라는 부모(?노드에)
