@@ -6,4 +6,15 @@
 - How to make methods in object
 - queryselector, getElementById
 
+### Day04
+ - resize
+
+### Day05
+ - USTTime
+ - new Date()
+
+### Day06
+ - localStorage.setItem
+ - localStorage.getItem
+
 ## from 200420 to 200503
