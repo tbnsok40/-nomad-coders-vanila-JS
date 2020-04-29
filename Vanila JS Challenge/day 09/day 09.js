@@ -1,25 +1,35 @@
 const span = document.querySelector("#val");
 const slide = document.querySelector("#slide");
 const button = document.querySelector("#limitButton");
-const span3 = document.getElementById("values3");
-
-displayValue.call(slide, {});
 
 function displayValue(e) {
   const inp = e.target || this;
-  const value = +inp.value;
-
-  span.innerHTML = value; //vaule는 즉 상한값이 된다(max)
-  span3.innerHTML = value;
+  upperbound = +inp.value;
+  span.innerHTML = upperbound;
 }
-////////////////////////////////////////////////////////
-const span2 = document.getElementById("values");
-var getNum = function () {
-  var temp = document.getElementById("input_num").value;
-  span2.innerHTML = temp;
 
-  //나는 윗줄 span이 태그 span인줄 알았는데 아니였다. 그냥 이름이였을 뿐(여기span과 아래span이 충돌해서 문제가 생겼었음, span2로 바꿔주니 해결)
+displayValue.call(slide, {});
+
+////////////////////////////////////////////////////////
+const span3 = document.getElementById("values3");
+const span2 = document.getElementById("values");
+const result = document.getElementById("result");
+
+var getNum = function () {
+  var chooseNum = document.getElementById("input_num").value;
+  span2.innerHTML = chooseNum;
+  let randomFloat = (min, max) =>
+    Math.floor(Math.random() * (max - min + 1) + min);
+  randomNum = randomFloat(0, upperbound);
+  span3.innerHTML = randomNum;
+
+  if (chooseNum == randomNum) {
+    result.innerHTML = "Hey Winner";
+  } else {
+    result.innerHTML = "Looser!!";
+  }
 };
+//나는 윗줄 span이 태그 span인줄 알았는데 아니였다. 그냥 이름이였을 뿐(여기span과 아래span이 충돌해서 문제가 생겼었음, span2로 바꿔주니 해결)
 
 // function changeLimits() {
 //   const minVal = +min.value;

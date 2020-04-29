@@ -18,6 +18,7 @@
         step="1"
         list="steplist"
         oninput="displayValue(event)"
+        style="width: 430px;"
       />
 
       <datalist id="steplist">
@@ -29,42 +30,17 @@
       </datalist>
     </div>
     <div class="guessNum">
-      Guess the Number: <input type="number" id="input_num" />
+      Guess the Number <input type="number" id="input_num" />
       <input type="button" value="p1ay" onClick="getNum()" />
     </div>
 
     <div>
-      You choose the : <span id="values"></span> machine choose the :
-      <span id="values3"></span>
+      You choose '<span id="values"></span>' machine choose the '<span
+        id="values3"
+      ></span
+      >'
     </div>
-
-    <div class="form">
-      <!-- <div>
-        <label for="min">Lower bound</label>
-        <input
-          type="number"
-          id="min"
-          onkeydown="checkPostiveInteger(event)"
-          oninput="checkValidLimits()"
-          placeholder="  < and != upper bound"
-        />
-      </div>
-      <div>
-        <label for="max">Upper bound</label>
-        <input
-          type="number"
-          id="max"
-          onkeydown="checkPostiveInteger(event)"
-          oninput="checkValidLimits()"
-          placeholder="  > and != lower bound"
-        />
-      </div> -->
-
-      <button onclick="changeLimits()" id="limitButton" disabled>
-        Apply limits
-      </button>
-    </div>
-
+    <div><span id="result"></span></div>
     <script src="day 09.js"></script>
   </body>
 </html>
