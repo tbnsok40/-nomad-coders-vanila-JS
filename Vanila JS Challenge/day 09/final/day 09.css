@@ -1,0 +1,30 @@
+/* .rangebar {
+  background-color: rgb(148, 48, 48);
+} */
+
+body {
+  position: relative;
+  margin-top: 15%;
+  color: whitesmoke;
+  text-align: center;
+  background-color: rgb(148, 48, 48);
+}
+
+#result {
+  font-size: 40px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.guessNum {
+  margin: 10px 10px 10px 10px;
+}
+
+.text_num {
+  font-size: 20px;
+  font-weight: bold;
+}
+.result_box {
+  margin-top: 20px;
+  padding: 10px 0px 10px 0px;
+  color: white;
+}

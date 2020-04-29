@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>day 09</title>
+    <link rel="stylesheet" href="day 09.css" />
+  </head>
+  <body>
+    <h1>Random Game</h1>
+    <h2>Generate a number between 0 and <span id="val"></span></h2>
+
+    <div class="rangebar">
+      <!-- <input type="range" min="0" max="100" step="1" list="steplist" /> -->
+      <input
+        id="slide"
+        type="range"
+        min="0"
+        max="100"
+        step="1"
+        list="steplist"
+        style="width: 430px;"
+      />
+
+      <datalist id="steplist">
+        <option>0</option>
+        <option>25</option>
+        <option>50</option>
+        <option>75</option>
+        <option>100</option>
+      </datalist>
+    </div>
+    <div class="guessNum">
+      Guess the Number
+
+      <form>
+        <input type="number" id="input_num" />
+        <input class="p1ay" type="button" value="p1ay" />
+      </form>
+    </div>
+
+    <div class="text_num">
+      YOUR NUMBER <span id="values"></span> <br />
+      MACHINE GOT <span id="values3"></span>
+    </div>
+    <div class="result_box"><span id="result"></span></div>
+    <script src="day 09.js"></script>
+  </body>
+</html>
