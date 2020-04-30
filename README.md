@@ -17,4 +17,15 @@
  - localStorage.setItem
  - localStorage.getItem
 
+
+### Day09
+ - random game
+ 
+ 
+### Day10
+ - calculator
+ - <input type = 'text' --- onkeydown ='enter();'>
+ 
+ 
+
 ## from 200420 to 200503
