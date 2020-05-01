@@ -1,0 +1,26 @@
+body {
+  position: relative;
+  left: 30%;
+  top: 30px;
+}
+table {
+  border-collapse: collapse;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  border: 1px solid black;
+}
+td {
+  font: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+input {
+  border: none;
+  font-size: 40px;
+  border: 1px solid black;
+  text-align: right;
+}
+input:focus {
+  outline: none;
+}
