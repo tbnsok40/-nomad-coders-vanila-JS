@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+}
+.main {
+  width: 350px;
+  height: 350px;
+  background-color: black;
+}
+.submain {
+  width: 300px;
+  height: 261px;
+  position: relative;
+  top: 45px;
+  left: 30px;
+}
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 300px;
+  height: 159px;
+}
+.container2 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 300px;
+  height: 51px;
+}
+.container3 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 300px;
+  height: 51px;
+  margin-bottom: 1.5px;
+}
+#btn {
+  border: 1px solid black;
+  text-align: center;
+  width: 70px;
+  height: 50px;
+  background-color: #363439;
+  border-radius: 6px;
+}
+
+#btn0 {
+  border: 1px solid black;
+  text-align: center;
+  width: 143px;
+  height: 50px;
+  background-color: #363439;
+  border-radius: 6px;
+}
+.btn_input {
+  border: 1px solid black;
+  text-align: center;
+  width: 214px;
+  height: 50px;
+  background-color: #363439;
+  border-radius: 6px;
+}
+#opr {
+  border: 1px solid black;
+  text-align: center;
+  width: 70px;
+  height: 50px;
+  background-color: #fe8e00;
+  border-radius: 6px;
+}
+
+#equ {
+  border: 1px solid black;
+  text-align: center;
+  width: 70px;
+  height: 50px;
+  background-color: #fe8e00;
+  border-radius: 6px;
+}
+
+input {
+  background-color: #363439;
+  border: none;
+}
