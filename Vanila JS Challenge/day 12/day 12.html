@@ -10,35 +10,39 @@
     <div class="main">
       <div class="submain">
         <div class="container3">
-          <div class="btn_input">
-            <input
-              type="text"
-              placeholder="Nomad Coders"
-              style="text-align: right;"
-            />
-          </div>
-          <div id="opr" style="background-color: rgba(189, 185, 185, 0.801);">
+          <input
+            type="text"
+            id="display"
+            placeholder="Nomad Coders"
+            style="text-align: center; color: white;"
+          />
+
+          <div
+            onclick="reset()"
+            id="opr"
+            style="background-color: rgba(189, 185, 185, 0.801);"
+          >
             C
           </div>
         </div>
         <div class="container">
-          <div id="btn">7</div>
-          <div id="btn">8</div>
-          <div id="btn">9</div>
-          <div id="opr">+</div>
-          <div id="btn">4</div>
-          <div id="btn">5</div>
-          <div id="btn">6</div>
-          <div id="opr">-</div>
-          <div id="btn">3</div>
-          <div id="btn">2</div>
-          <div id="btn">1</div>
-          <div id="opr">*</div>
+          <div onclick="add('7')" id="btn">7</div>
+          <div onclick="add('8')" id="btn">8</div>
+          <div onclick="add('9')" id="btn">9</div>
+          <div onclick="add('+')" id="opr">+</div>
+          <div onclick="add('4')" id="btn">4</div>
+          <div onclick="add('5')" id="btn">5</div>
+          <div onclick="add('6')" id="btn">6</div>
+          <div onclick="add('-')" id="opr">-</div>
+          <div onclick="add('1')" id="btn">1</div>
+          <div onclick="add('2')" id="btn">2</div>
+          <div onclick="add('3')" id="btn">3</div>
+          <div onclick="add('*')" id="opr">*</div>
         </div>
         <div class="container2">
-          <div id="btn0">0</div>
-          <div id="equ">=</div>
-          <div id="opr">/</div>
+          <div onclick="add('0')" id="btn0">0</div>
+          <div onclick="calculate()" id="equ">=</div>
+          <div onclick="add('/')" id="opr">/</div>
         </div>
       </div>
     </div>

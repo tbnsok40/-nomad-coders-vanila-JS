@@ -1,4 +1,5 @@
 body {
+  font-size: 23px;
   width: 100%;
 }
 .main {
@@ -18,6 +19,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+
   width: 300px;
   height: 159px;
 }
@@ -41,6 +43,10 @@ body {
 #btn {
   border: 1px solid black;
   text-align: center;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   width: 70px;
   height: 50px;
   background-color: #363439;
@@ -82,6 +88,28 @@ body {
 }
 
 input {
-  background-color: #363439;
+  background-color: black;
   border: none;
+}
+input:focus {
+  outline: none;
+}
+
+#btn,
+#btn0,
+#opr,
+#equ {
+  /* 중앙화 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 중앙화 */
+}
+
+#display {
+  border: 1px solid black;
+
+  border-radius: 6px;
+  font-size: 23px;
+  width: 214px;
 }
