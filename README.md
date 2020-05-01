@@ -22,9 +22,10 @@
  - random game
  
  
-### Day10
+### Day10 11 12
  - calculator
  - <input type = 'text' --- onkeydown ='enter();'>
+ - flex-wrap
  
 ![image](https://user-images.githubusercontent.com/40200760/80664134-ea7b4800-8ad0-11ea-98ed-fb405722a76b.png)
 ![image](https://user-images.githubusercontent.com/40200760/80664160-f8c96400-8ad0-11ea-95c1-28ef9f775fd1.png)
