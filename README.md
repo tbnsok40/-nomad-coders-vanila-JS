@@ -12,6 +12,7 @@
 ### Day05
  - USTTime
  - new Date()
+ - + stopwatch
 
 ### Day06
  - localStorage.setItem
